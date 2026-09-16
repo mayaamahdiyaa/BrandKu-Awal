@@ -1,6 +1,4 @@
-
-
-function Card({icon, title, subtitle}) {
+export const Card = ({icon, title, subtitle}) => {
     console.log(icon, title, subtitle);
     return (
         <div>

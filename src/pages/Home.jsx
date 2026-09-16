@@ -1,6 +1,5 @@
-// import CardGrid from "../components/CardGrid";
-import CardGrid from "../components/CardGrid";
-import Hero from "../components/Hero";
+import CardGrid from "../component/CardGrid";
+import Hero from "../component/Hero";
 
 function Home({fitur}){
     return (
