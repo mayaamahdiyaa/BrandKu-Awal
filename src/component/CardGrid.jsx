@@ -22,7 +22,7 @@ function CardGrid() {
             {
                 dataProduct.map((data) => (
                     <Card
-                        key={data.id} icon={data.icon} title={data.title} subtitle={data.subtitle} />
+                        key={data.id} image={data.image} title={data.title} price={data.price} category={data.category} />
                 ))
             }
         </div>

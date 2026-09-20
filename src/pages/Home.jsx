@@ -1,17 +1,18 @@
 import CardGrid from "../component/CardGrid";
 import Hero from "../component/Hero";
 
-function Home({fitur}){
+function Home({ fitur }) {
     return (
         <div className="text-green-500">HOME
             <section>
-                <Hero/>
+                <Hero />
             </section>
+            
             <section>
                 <CardGrid features={fitur} />
             </section>
         </div>
-    )
+    );
 }
 
 export default Home;
